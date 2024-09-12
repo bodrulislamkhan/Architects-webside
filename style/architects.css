@@ -7,3 +7,46 @@
   font-weight: weight;
   font-style: normal;
 }
+/* header style */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #424242;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.nav_title {
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: #131313;
+  align-items: center;
+}
+/* banner style */
+.banner-content{
+     text-align: center;
+     margin: 0 auto ;
+}
+.bannar-titel{
+font-weight: 700;
+color: #131313;
+font-size: 4rem;
+}
+.banner-description{
+color: #727272;
+}
